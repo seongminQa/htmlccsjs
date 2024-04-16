@@ -55,7 +55,7 @@
 					console.log(el);
 				}
 			}
-			
+			// 체크박스 체크된 것들 콘솔에서 확인
 			function findElementByChecked() {
 				var el_checked = document.querySelectorAll("[name=skill]:checked");
 				for(var el of el_checked) {
